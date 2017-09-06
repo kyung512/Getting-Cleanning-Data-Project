@@ -59,7 +59,7 @@ subdata$activity <- factor(subdata$activity, labels = activitylabels$action)
 
 data2 <- aggregate(. ~subject + activity, subdata, mean)
 data2 <- data2[order(data2$subject, data2$activity), ]
-write.table(data2, file="tidydataset.txt")
+write.table(data2, file="tidydataset.txt", row.names=FALSE)
 str(data2)
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
 
