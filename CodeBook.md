@@ -28,4 +28,3 @@ There are 30 subjects and 6 activities labeled 1 through 6
 4.	Sitting
 5.	Standing
 6.	Laying
-Files, y_train.txt and y_test.txt, contain ‘activity’ number identifiers(1-6) and subect_train.txt and ‘subject_test.txt’ files contain subject information(1-30).  
